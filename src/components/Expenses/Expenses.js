@@ -6,7 +6,7 @@ const Expenses=(props)=>
 {
 
     return(
-        <Card className="expenses">
+    <Card className="expenses">
             <ExpenseItem 
   date={props.item[0].date} 
   title={props.item[0].title} 
